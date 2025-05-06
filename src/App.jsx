@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Pricing from './pages/Pricing';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Layout from './components/Layout';
 
 function App() {
   return (
@@ -19,16 +20,16 @@ function App() {
         <Link to="/contact">Contact</Link>
       </nav>
 	
-	  <div className="page-wrapper">
+	  
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        {/*<Route path="/pricing" element={<Pricing />} />*/}
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Layout><Home /></Layout>} />
+        <Route path="/services" element={<Layout><Services /></Layout>} />
+        <Route path="/portfolio" element={<Layout><Portfolio /></Layout>} />
+        {/*<Route path="/pricing" element={<Layout><Pricing /></Layout>} />*/}
+        <Route path="/about" element={<Layout><About /></Layout>} />
+        <Route path="/contact" element={<Layout><Contact /></Layout>} />
       </Routes>
-	  </div>
+	  
 
       <footer className="footer">
         <p>&copy; 2025 Downeast Landscape Imaging. All rights reserved.</p>

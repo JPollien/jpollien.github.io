@@ -4,7 +4,7 @@ function Portfolio() {
   return (
     <section>
       <h1>Portfolio</h1>
-      <p>Showcase completed projects with images or 3D embeds.</p>
+      <p>Coming soon.</p>
     </section>
   );
 }

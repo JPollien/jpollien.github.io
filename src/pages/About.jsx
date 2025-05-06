@@ -12,8 +12,8 @@ function About() {
 
       <h2>Our Background</h2>
       <p>
-        We started as a small group of aerial photography hobbyists who saw the
-        potential for cutting-edge mapping solutions across Maine’s diverse
+        We started as a small group of mapping professionals who saw the
+        potential for cutting-edge spatial analysis solutions across Maine’s diverse
         landscapes. Over the years, we’ve grown into a trusted local provider
         for real estate professionals, environmental researchers, and land
         developers looking to visualize and analyze outdoor spaces.
@@ -21,9 +21,9 @@ function About() {
 
       <h2>Credentials & Experience</h2>
       <ul>
-        <li>FAA-Certified Drone Pilots</li>
+        <li>FAA-Certified Drone Pilot</li>
         <li>5+ Years in Professional Photogrammetry</li>
-        <li>Expertise in GIS Software and 3D Modeling</li>
+        <li>Over a decade of expertise in GIS Software and 3D Modeling</li>
         <li>Experience with Coastal, Forested, and Urban Terrain Analysis</li>
       </ul>
 

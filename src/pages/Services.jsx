@@ -1,7 +1,10 @@
 import React from 'react';
+import ContentWrapper from '../components/ContentWrapper';
+import OverheadContours from '../assets/OverheadContours.png';
 
 function Services() {
   return (
+  <ContentWrapper>
     <section style={{ maxWidth: '800px', margin: '2rem auto' }}>
       <h1>Our Services</h1>
       <p>
@@ -28,7 +31,11 @@ function Services() {
         elevation data for construction planning, environmental studies, and
         more.
       </p>
+	  <div className="services-image-wrapper">
+        <img src={OverheadContours} alt="Overhead terrain contours from drone mapping" className="services-image" />
+      </div>
     </section>
+	</ContentWrapper>
   );
 }
 
