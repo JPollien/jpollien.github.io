@@ -18,7 +18,8 @@ function App() {
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </nav>
-
+	
+	  <div className="page-wrapper">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -27,6 +28,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+	  </div>
 
       <footer className="footer">
         <p>&copy; 2025 Downeast Landscape Imaging. All rights reserved.</p>

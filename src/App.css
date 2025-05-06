@@ -54,6 +54,12 @@ body {
   cursor: pointer;
 }
 
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .cta-button:hover {
   background-color: var(--color-accent);
 }
