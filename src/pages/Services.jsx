@@ -12,24 +12,31 @@ function Services() {
         your project needs.
       </p>
 
-      <h2>3D Modeling & Mapping</h2>
+      <h2>Topographic Mapping for Site Planning</h2>
       <p>
-        High-resolution 3D models for landscape design, topographical conditions
-        analysis, shoreline restoration, and land use planning. Ideal for visualizing site changes over
-        time.
+        <ul>
+	<li>Target: Contractors, earthwork specialists, landscapers.</li>
+	<li>Value: Rapid and accurate maps of terrain to inform grading, drainage, and layout planning.</li>
+	<li>Deliverables: Contours, orthomosaics, DSMs, and exportable CAD-friendly data (e.g. DXF/GeoTIFF).</li>
+	</ul>
       </p>
 
-      <h2>Drone Photography & Videography</h2>
+      <h2>Vegetation & Terrain Characterization</h2>
       <p>
-        Professional aerial imaging perfect for real estate listings, property
-        management, and marketing campaigns.
+	<ul>
+        <li>Target: Landscape designers, conservation orgs, site planners, foresters.</li>
+	<li>Value: Identify tree locations and characteristics, canopy density, and terrain features to support layout design, clearing plans, and erosion control strategies.</li>
+	<li>Deliverables: Tree maps, canopy height models, forest biomass estimates, slope and aspect maps, and terrain profiles.</li>
+	</ul>
       </p>
 
-      <h2>Terrain Analysis</h2>
+      <h2>Pre- and Post-Construction Documentation</h2>
       <p>
-        Using GIS software and custom drone flights, we generate detailed
-        elevation data for construction planning, environmental studies, and
-        more.
+	<ul>
+        <li>Target: Builders, project managers.</li>
+	<li>Value: Before/after visuals, elevation data, and vegetation clearing confirmation to assist with permitting and progress reports.</li>
+	<li>Deliverables: Time-stamped orthoimagery, elevation change maps, video flyovers.</li>
+	</ul>
       </p>
 	  <div className="services-image-wrapper">
         <img src={OverheadContours} alt="Overhead terrain contours from drone mapping" className="services-image" />
