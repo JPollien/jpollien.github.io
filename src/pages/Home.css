@@ -8,9 +8,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   background-color: var(--color-neutral);
-  padding: 2rem;
+  padding: 2rem 1rem;
   border-radius: 8px;
   max-width: 1600px;
   margin: auto; /* center horizontally */
